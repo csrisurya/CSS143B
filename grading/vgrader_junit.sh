@@ -31,7 +31,7 @@ function run_one {
 	TESTSRC=$(basename -- "$TESTSRC")
 	TESTSRC="${TESTSRC%.*}"
 	TESTPATH=/Users/pdu/teaching/CSS143B
-	javac -cp $TESTPATH/junit/junit-4.13.jar *.java
+	javac -Xlint:unchecked -cp $TESTPATH/junit/junit-4.13.jar *.java
 	java -cp .:$TESTPATH/junit/junit-4.13.jar:$TESTPATH/junit/hamcrest-core-1.3.jar org.junit.runner.JUnitCore $TESTSRC 
 
 	rm *.class
