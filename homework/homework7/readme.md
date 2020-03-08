@@ -17,7 +17,7 @@
 
 - [Problem 1](https://github.com/pdgetrf/css143-homework7-1): Dictionary
 - [Problem 2](https://github.com/pdgetrf/css143-homework7-2): Heap ADT
-- [Problem 3](https://github.com/pdgetrf/CSS143B/tree/master/homework/homework7/readme.md): Autocomplete
+- [Problem 3](https://github.com/pdgetrf/CSS143B/blob/master/homework/homework7/problem_3/readme.md): Autocomplete
 
 ### Submission Checklist
 - a repo for problem 1 the dictionary
