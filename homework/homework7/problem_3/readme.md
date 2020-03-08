@@ -1,4 +1,4 @@
-## Autocomplete (20)
+## Autocomplete (40pt)
 
 Okay, so you've made it to the final challenge!!
 
