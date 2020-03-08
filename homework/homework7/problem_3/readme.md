@@ -11,7 +11,7 @@ It works similar to google search autocomplete. When you start typing in the sea
 And here is another example. Given a set of words ["hello", "high tech", "seattle", "seatac", "see", "hollow", "how is it"]:
 
 - when you input "h", it'll produce ["hello", "high tech", "hollow", "how is it"]
-- when you input "se", it'll produce ["seattle", "se"]
+- when you input "se", it'll produce ["seattle", "see"]
 - when you input "sea", it'll produce ["seattle", "seatac"]
 - when you input "how", it'll produce ["how is it"]
 - when you input "xyz", it'll produce []
