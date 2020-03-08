@@ -7,11 +7,9 @@
 
 ### Work and Submission 
 
-- Check out this repo to your own repo (much like what you did for the quiz)
-- Make changes and commits as needed
-- Once done, send the repo url through canvas
+- Check out each repo to your own repo. If you are copying and pasting code from my repo, you are doing it wrong.
 - DO NOT MAKE UPDATE TO YOUR REPO **AFTER** DUE DATE OR ZERO POINT IS GIVEN
-- Also like what you did for the quiz, your submission repo should only contain .java files and .jar files. Points will be taken if other files appear.
+- Your code submission repo should only contain .java files and .jar files. Points will be taken if other files appear including readme.
 
 ### Problems to Solve
 
