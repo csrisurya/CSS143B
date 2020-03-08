@@ -8,7 +8,7 @@ It works similar to google search autocomplete. When you start typing in the sea
 
 ![google search example](https://github.com/pdgetrf/CSS143B/blob/master/homework/homework7/problem_3/example.png)
 
-And here is another example. Given a set of words ["hello", "high tech", "seattle", "seatac", "see", "hollow", "how is it"]:
+And here is another example. Given a set of words ["hello", "high", "seattle", "seatac", "see", "hollow", "how"]:
 
 - when you input "h", it'll produce ["hello", "high", "hollow", "how"]
 - when you input "se", it'll produce ["seattle", "see"]
