@@ -15,5 +15,7 @@
 
 ### Problems to Solve
 
-- [Problem 1](https://github.com/pdgetrf/css143-homework7-1)
-- [Problem 2](https://github.com/pdgetrf/css143-homework7-2)
+- [Problem 1](https://github.com/pdgetrf/css143-homework7-1): Dictionary
+- [Problem 2](https://github.com/pdgetrf/css143-homework7-2): Heap ADT
+- [Problem 3](https://github.com/pdgetrf/CSS143B/tree/master/homework/homework7/problem_3.md): Trie ADT
+
