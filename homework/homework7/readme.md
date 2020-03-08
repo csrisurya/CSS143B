@@ -25,4 +25,5 @@
 - a repo for problem 3 the autocomplete
 - a paragraph of text for the extra credit. 
 
+So, 4 different repos + a paragraph of text.
 
