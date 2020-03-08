@@ -18,10 +18,12 @@ And here is another example. Given a set of words ["hello", "high", "seattle", "
 
 **The goal of the algorithm is to have as low complexity as possible to retrieve the suggested words when given the search text**. In real life, this is usually implement at the browser end so it needs to be FAST. 
 
+As a reasonable simplification, the autocomplete will only match in a single word. And case is ignored.
+
 Finish the problem in 3 steps:
 
 1. Write a 1 or 2-page document describe the design of your code. Use the above examples to illustrate how it works. Specify what data structure you are using and why. Specify the theoritical performance complexity of design with big O notation. Show result from your unit tests to complete the design doc. Argue that it's the fastest way you can come up with. 
-2. Implement the autocomplete solution in Java. The input is a set of strings (no need to read from file). Then given a search word (here assuming it's only a single or partial word), the output is a set of strings from the input string set that starts with the given search word. You can only use Java natative data types and java.util classes such as map, stack, queue, etc. 
+2. Implement the autocomplete solution in Java. The input is a set of words (no need to read from file). Then given a search text (here assuming it's only a single or partial word), the output is a set of words from the input word set that starts with the given search text. You can only use Java natative data types and java.util classes such as map, stack, queue, etc. 
 3. Add unit tests using JUnit for the search function to show that it works correctly. Write as many test cases as you think appropriate. ***The above example test cases must be included***.
 
 Add your design doc and code and tests to a separate repo.
