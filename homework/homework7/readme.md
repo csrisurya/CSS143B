@@ -19,3 +19,8 @@
 - [Problem 2](https://github.com/pdgetrf/css143-homework7-2): Heap ADT
 - [Problem 3](https://github.com/pdgetrf/CSS143B/tree/master/homework/homework7/problem_3.md): Trie ADT
 
+### Submission Checklist
+- a repo for problem 1 the dictionary
+- a repo for problem 2 the heap
+- a repo for the perfromance test code, data and graph image for problem 2
+- a repo for problem 3 the autocomplete
