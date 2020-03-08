@@ -10,10 +10,10 @@ It works similar to google search autocomplete. When you start typing in the sea
 
 And here is another example. Given a set of words ["hello", "high tech", "seattle", "seatac", "see", "hollow", "how is it"]:
 
-- when you input "h", it'll produce ["hello", "high tech", "hollow", "how is it"]
+- when you input "h", it'll produce ["hello", "high", "hollow", "how"]
 - when you input "se", it'll produce ["seattle", "see"]
 - when you input "sea", it'll produce ["seattle", "seatac"]
-- when you input "how", it'll produce ["how is it"]
+- when you input "ho", it'll produce ["how"]
 - when you input "xyz", it'll produce []
 
 **The goal of the algorithm is to have as low complexity as possible to retrieve the suggested words when given the search text**. In real life, this is usually implement at the browser end so it needs to be FAST. 
