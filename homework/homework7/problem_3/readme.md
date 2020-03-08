@@ -16,6 +16,8 @@ And here is another example. Given a set of words ["hello", "high tech", "seattl
 - when you input "how", it'll produce ["how is it"]
 - when you input "xyz", it'll produce []
 
+**The goal of the algorithm is to have as low complexity as possible to retrieve the suggested words when given the search text**. In real life, this is usually implement at the browser end so it needs to be FAST.
+
 Finish the problem in 3 steps:
 
 1. Write a 1 or 2-page document describe the design of your code. Use the above examples to illustrate how it works. Specify what data structure you are using and why. Specify the theoritical performance complexity of design with big O notation. Show result from your unit tests to complete the design doc.
