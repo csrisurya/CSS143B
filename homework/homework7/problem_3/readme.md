@@ -18,7 +18,11 @@ And here is another example. Given a set of words ["hello", "high", "seattle", "
 
 **The goal of the algorithm is to have as low complexity as possible to retrieve the suggested words when given the search text**. In real life, this is usually implement at the browser end so it needs to be FAST. 
 
-As a reasonable simplification, the autocomplete will only match in a single word. And case is ignored.
+As a reasonable simplification:
+
+- the autocomplete will only match in a single word
+- the match will only happen from the beginning of the given string set
+- case is ignored
 
 Finish the problem in 3 steps:
 
