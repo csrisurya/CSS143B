@@ -17,6 +17,7 @@
 - [Problem 2](https://github.com/pdgetrf/css143-homework7-2): Heap ADT
 - [Problem 3](https://github.com/pdgetrf/CSS143B/blob/master/homework/homework7/problem_3/readme.md): Autocomplete
 - [Extra Credit] Write your most memorable moments of the quarter. (10pt)
+- [Extra Credit2] Finish the survey by 11:59pm of Friday 3/13 (5pt)
 
 ### Submission Checklist
 - a repo for problem 1 the dictionary
