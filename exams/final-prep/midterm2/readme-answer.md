@@ -20,14 +20,14 @@
 - (C) Multiplication of two numbers.
 - (D) Linear search over a set of characters.
 
-**3.（2pt) When implementing a Stack ADT using a linked list vs array, which statement is wrong? (C)**
+**3.（2pt) When implementing a Stack ADT using a linked list vs array, which statement is wrong? (A)**
 
 - (A) Array is faster for push and pop because linkedlist requires traversal to access nodes
 - (B) Linkedlist is better in terms of flexible stack size
 - (C) Array and linked list can have equally quick pop and push implementation
 - (D) Stack using linked list has slightly higher storage overhead comparing to array due to the additional node references
 
-**4. (2pt) Which of the following is NOT true for a single linked list? (D)**
+**4. (2pt) Which of the following is NOT true for a single linked list? (A)**
 
 - (A) It has to have a dummy node
 - (B) It can be used to implement both Stack and Queue
