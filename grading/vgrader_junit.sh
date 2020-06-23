@@ -32,7 +32,7 @@ function run_one {
 	TESTSRC="${TESTSRC%.*}"
 	TESTPATH=/Users/pdu/teaching/CSS143B
 	javac -Xlint:unchecked -cp $TESTPATH/junit/junit-4.13.jar *.java
-	java -cp .:$TESTPATH/junit/junit-4.13.jar:$TESTPATH/junit/hamcrest-core-1.3.jar org.junit.runner.JUnitCore $TESTSRC 
+	java -Xmx8g -cp .:$TESTPATH/junit/junit-4.13.jar:$TESTPATH/junit/hamcrest-core-1.3.jar org.junit.runner.JUnitCore $TESTSRC 
 
 	rm *.class
 }
