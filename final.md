@@ -44,7 +44,7 @@ In the lecture we saw the following code that calculate and sort the word freque
 ```java
     public static TreeMap<Integer, Set<String>> wordCount(String msg) {
  				
-				TreeMap<Integer, Set<String>> sortedMap = new TreeMap<>(Collections.reverseOrder());
+	      TreeMap<Integer, Set<String>> sortedMap = new TreeMap<>(Collections.reverseOrder());
         if (msg == null || msg.isEmpty()) {
             return sortedMap;
         }
@@ -74,10 +74,15 @@ In the lecture we saw the following code that calculate and sort the word freque
 
 Answer the following question about this code:
 
-6.1 (3pt) Explain why the entry value of the variable ***sortedMap*** is a Set<String>, instead of a String.
+6.1 (3pt) With this definition:
+
+```java
+	      TreeMap<Integer, Set<String>> sortedMap = new TreeMap<>(Collections.reverseOrder());
+```
+
+Explain why the entry value of the variable ***sortedMap*** is a Set, instead of a String:
 
 ```bash
-
 
 
 
