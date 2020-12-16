@@ -106,7 +106,7 @@ what : 2
 we : 3
 ```
 
-What is the corresponding data in ***sortedMap*** after running the given code?
+What is the resulted data in ***sortedMap*** after running the given code?
 
 ```bash
 
