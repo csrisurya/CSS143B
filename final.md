@@ -155,7 +155,7 @@ What is the corresponding data in ***sortedMap*** after running the given code?
 
 ```
 
-**8. (5pt) In a project, a List of List is initialized like this:**
+**8. (5pt) Suppose in a project at work, a List of List is initialized like this:**
 
 ```java
         // create the original array
@@ -166,18 +166,18 @@ What is the corresponding data in ***sortedMap*** after running the given code?
         buffer1.add(list2);
 ```
 
-Now, your co-worder Jerry has the following code that makes a **deep** copy of the data in *buffer1* into *buffer2*:
+Now, your co-worder Jerry has the following code where he intends to make a **deep** copy of the data in *buffer1* into *buffer2*:
 
 ```java
         // make a copy.
-			  // has a bug
+	// has a bug
         List<List<Integer>> buffer2 = new ArrayList<>();
         for (List<Integer> list : buffer1) {
             buffer2.add(list);
         }
 ```
 
-His intention is to make a "deep copy" of *buffer1* so any change made to the values in *buffer2* won't affect the original data in *buffer1*. 
+A "deep copy" of *buffer1* means any change made to the data in *buffer2* won't affect the original data in *buffer1*. 
 
 For example, if the 2nd list in *buffer2* is changed by:
 
