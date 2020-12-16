@@ -44,7 +44,7 @@ In the lecture we saw the following code that calculate and sort the word freque
 ```java
     public static TreeMap<Integer, Set<String>> wordCount(String msg) {
  				
-	      TreeMap<Integer, Set<String>> sortedMap = new TreeMap<>(Collections.reverseOrder());
+	TreeMap<Integer, Set<String>> sortedMap = new TreeMap<>(Collections.reverseOrder());
         if (msg == null || msg.isEmpty()) {
             return sortedMap;
         }
