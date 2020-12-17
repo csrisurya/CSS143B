@@ -30,7 +30,7 @@
 - (C) Dictionary can be implemented with array
 - (D) The hash function needs to have low complexity, preferably O(1)
 
-**5. (2pt) Our mini-google search engine service getting pretty popular, and search requests are "pouring in" faster than the speed of the searcher can process. Which of the following is NOT an effective choice to improve this situation?** 
+**5. (2pt) Our mini-google search engine service is getting pretty popular, and search requests are "pouring in" faster than the speed of the searcher can process. Which of the following is NOT an effective choice to improve this situation?** 
 
 - (A) Add a hashtable to cache recent searches to prevent asking the searcher to do the same search again
 - (B) Optimize the search algorithm for lower complexity
