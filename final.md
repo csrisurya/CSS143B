@@ -264,7 +264,7 @@ What is the pre-order, in-order and post-order traversal of the above tree
 
 The single linked list has a dummy node. And "second half" means from the middle of the list to the end. If there's odd number of nodes, the node in the dead center does not participate in the reversal. The dummy node is not considered part of the list to be counted for reversal.
 
-10.1 (5pt) Write the code given the following list node definition
+10.1 (8pt) Write the code given the following list node definition
 
    ```java
    public class ListNode {
@@ -297,7 +297,7 @@ public class Solution {
 }
 ```
 
-10.2 (5pt) What's the time complexity of your code in big O notation ?
+10.2 (2pt) What's the time complexity of your code in big O notation ?
 
 ```bash
 
