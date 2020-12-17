@@ -147,7 +147,7 @@ What is the resulted data in ***sortedMap*** after running the given code?
 
 ```
 
-**7.2 (3pt) Discuss and Improve the code quality**
+**7.2 (3pt) Discuss and Improve the code quality ("clean code")**
 
 ```bash
 
