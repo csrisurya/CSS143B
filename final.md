@@ -219,27 +219,46 @@ Describe your fix to the bug:
 **9. (15pt) Based on the following tree**
 
 ```bash
-          41
-        /    \
-       18    33
-      / \    / \
-     11  3  1  19 
-    /
-   5
+            8
+         /     \
+       3         1
+     /   \      / \
+    13     5    12  19 
+         /
+        4
 ```
 
 What is the pre-order, in-order and post-order traversal of the above tree
 ```bash
-pre-order:
+(3pt) pre-order:
 
 
-In-order:
+(3pt) In-order:
 
 
-post-order:
+(3pt) post-order:
 
 
 ```
+
+(4pt) The ***height*** of a binary tree is defined as the number of nodes along the *longest* path from the root to a leaf node. Write code to calculate the height. Recursion is your friend here.
+
+```java
+
+
+
+
+```
+
+(2pt) This binary tree is *not* but *almost* a binary search tree, and it can be turned into a BST by swapping just two nodes. Which nodes are they?
+
+```
+
+
+
+```
+
+
 
 **10. (10pt) Write the code to iteratively reverse THE SECOND HALF of a single linked list in place.**
 
