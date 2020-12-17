@@ -187,7 +187,7 @@ For example, if the 2nd list in *buffer2* is changed by:
 
 Data in *buffer1* **should** not change at all. 
 
-However, when Jerry runs this code, he found that data in *buffer2* also changed when data in *buffer1* is changed. He's asking for your help. After some debugging you guys realize there's a bug in the code that does the copy. Since you know TDD (Test Driven Development) is a good practice, you would suggest Jerry to write a new test to catch this bug first and then fix it. 
+However, when Jerry ran this code, he found that data in *buffer2* also changed when data in *buffer1* is changed. He's confused, and asked for your help. After some debugging you guys realized there's a bug in the code that does the copy. Since you know TDD (Test Driven Development) is a good practice, you would suggest Jerry to write a new test to catch this bug first and then fix it. 
 
 Explain to Jerry what the bug is:
 
