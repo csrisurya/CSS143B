@@ -14,21 +14,21 @@
 - (A) Stack is First-In-Last-Out
 - (B) Queue is First-In-First-Out
 - (C) Stack can be used to implement a recursive algorithm iteratively
-- (D) Queue can only be implemented with array, and therefore its size is limited by the initial capacity
+- (D) Queue can only be implemented with array, and as a result its size cannot be changed once allocated
 
 **3. (2pt) Which of the following statements about software testing is FALSE?**
 
-- (A) JUnit is a Java testing framework
-- (B) Testing can be done by comparing actual results from running code with known expcted results  
-- (C) Test cases should cover both possible data inputs and code paths
-- (D) If my test passes, my code is correct without any doubt
+- (A) Tests can serve as a "manual" to provide info about the input and output of the function
+- (B) Code can be tested by comparing actual results from running code with known expcted results  
+- (C) Test cases should include edge cases and bad inputs
+- (D) If test passes, my code is correct without any doubt
 
 **4. (2pt) Which of the following statements about the dictionary ADT is FALSE?**
 
 - (A) Chaining can be used to solve the collision problem
 - (B) Dictionary always has O(1) time complexity for entry retrieval such as ***get(key)***
 - (C) Dictionary can be implemented with array
-- (D) The hash function that generates hash key needs to have low complexity, preferably O(1)
+- (D) The hash function needs to have low complexity, preferably O(1)
 
 **5. (2pt) Our mini-google search engine service getting pretty popular, and search requests are "pouring in" faster than the speed of the searcher can process. Which of the following is NOT an effective choice to improve this situation?** 
 
