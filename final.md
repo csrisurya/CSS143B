@@ -80,7 +80,7 @@ Answer the following question about this code:
 	      TreeMap<Integer, Set<String>> sortedMap = new TreeMap<>(Collections.reverseOrder());
 ```
 
-Explain why the entry value of the variable ***sortedMap*** is a Set, instead of a String:
+Explain why the value of the TreeMap variable ***sortedMap*** is a Set<String>, instead of a String:
 
 ```bash
 
