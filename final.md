@@ -155,7 +155,7 @@ What is the resulted data in ***sortedMap*** after running the given code?
 
 ```
 
-**8. (5pt) Suppose in a project at work, a List of List is initialized like this:**
+**8. (5pt) Suppose we have a List of List initialized like this:**
 
 ```java
         // create the original array
