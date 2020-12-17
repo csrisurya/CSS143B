@@ -360,7 +360,7 @@ public class Cat extends Animal {
 
 ```
 
-**(10pt) Bonus Points 1**
+**(8pt) Bonus Points 1**
 
 For the "unique path" problem we dicussed in lecture, the following recursion solution was given
 
@@ -392,3 +392,30 @@ Discuss the big O time complexity of this iterative method.
 
 
 ```
+
+**(7pt) Bonus Points 2**
+The following code prints its result to console.
+
+```java
+    public static void printListInReverse(ListNode list) {
+        Stack<Integer> stack = new LinkedListStack<>();
+
+        ListNode ptr = list.next;
+        while (ptr != null) {
+            stack.push(ptr.val);
+            ptr = ptr.next;
+        }
+
+        while (stack.size() != 0) {
+      	    System.out.println(stack.pop());
+        }
+    }
+ ```
+ 
+ Describe what this code prints and how to modify it for testing (becase result printed on console cannot be used for testing).
+ 
+ ```
+ 
+ 
+ 
+ ```
